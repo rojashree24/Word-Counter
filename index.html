@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Counter</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
+</head>
+<body>
+    <div class="ui-input-container"> 
+        <h2>Word Count</h2>
+        <label class="ui-form-input-container">
+        <textarea class="ui-form-input"id="word" oninput="countWord()"
+            rows="10" cols="60">
+        </textarea>
+        <span class="form-input-label">Message</span>  
+            </label> 
+            <p id="text"> Word Count:
+                <span id="show">0</span>
+            </p>
+       </div>
+</body>
+</html>
